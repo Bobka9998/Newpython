@@ -1,16 +1,16 @@
-#ismlar = ['jasur', 'ulug`', 'otojon', 'donyor']
-#print('Salom', ismlar[0].title())
-#print('Qalaysan', ismlar[1].title())
-#print('Bugun ko`rishamiz', ismlar[2].title())
-#sonlar = [1, -57, 68, 35.4, 201]
-#print(sonlar[1]+sonlar[0])
-#print(sonlar[1]*sonlar[4])
-#narxlar = [25000, 54000, 74000, 32000, 41000, 19000, 45000]
-#narxlar.append(78000)
-#narxlar.insert(1, 'kiyim')
-#del narxlar[4]
-#narxlar.remove(74000)
-#print(narxlar)
+ismlar = ['jasur', 'ulug`', 'otojon', 'donyor']
+print('Salom', ismlar[0].title())
+print('Qalaysan', ismlar[1].title())
+print('Bugun ko`rishamiz', ismlar[2].title())
+sonlar = [1, -57, 68, 35.4, 201]
+print(sonlar[1]+sonlar[0])
+print(sonlar[1]*sonlar[4])
+narxlar = [25000, 54000, 74000, 32000, 41000, 19000, 45000]
+narxlar.append(78000)
+narxlar.insert(1, 'kiyim')
+del narxlar[4]
+narxlar.remove(74000)
+print(narxlar)
 t_shaxslar = ['torres', 'david villa', 'gerrad', 'benayum', 'alonso']
 z_shaxslar = ['salax', 'mane', 'jota', 'firmino', 'gomez', 'alkantara']
 print('Men tarixiy futbolchilardan ', t_shaxslar[0].title(), ' bilan,')
