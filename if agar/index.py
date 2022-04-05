@@ -9,7 +9,7 @@ for car in cars:
 # Foydalanuvchi login ismini so'rang. Agar login admin bo'lsa, "Xush kelibsiz, Admin. Foydalanuvchilar ro'yxatini ko'rasizmi?" xabarini konsolga chiqaring. Aks holda, "Xush kelibsiz, {foydalanuvchi_ismi}!"  matnini konsolga chiqaring.
 ism = input("Ismingizni kiriting:\n")
 if ism.lower() == 'admin':
-    print(f"Xush kelibsiz {ism.capitalize()} foydalanuvchilar ro`yxatini ko`rasizmi")
+    print(f"Xush kelibsiz {ism.capitalize()} foydalanuvchilar ro`yxatini ko`rasizmi?")
 else:
     print('Xush kelibsiz foydalanuvchi', ism.capitalize())
 # Foydalanuvchidan 2 ta son kiritishni so'rang. Agar ikki son bir-biriga teng bo'lsa, "Sonlar teng" ekan degan yozuvni konsolga chiqaring.

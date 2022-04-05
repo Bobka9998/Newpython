@@ -22,3 +22,7 @@ for inson in range(n_insonlar):
     insonlar.append(input(f"{inson+1}-suhbatlashgan insoningiz: "))
 print(f"Siz suhbatlashgan insonlar {len(insonlar)}ta ular:")
 print(insonlar)
+# misol
+x = float(input("son kiriting: "))
+y = float(input("son kiriting: "))
+print(f"{x}>{y}") if x>y else print(f"{x}<{y}")
