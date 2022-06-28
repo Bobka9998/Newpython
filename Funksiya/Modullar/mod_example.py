@@ -28,9 +28,9 @@ c = list(range(1,54,5))
 print(c)
 print(r.choice(c))
 
-# f = list(range(20))
-# print(f)
-# r.shuffle(f)
+f = list(range(20))
+print(f)
+r.shuffle(f)
 
 from sklearn.utils import shuffle
 

@@ -1,7 +1,7 @@
 # Yuqoridagi funksiyada y uchun 2 standart qiymatini bering.
 
 
-def daraja_count(x,y=20):
+def daraja_count(x,y=2):
   """ x ning y chi darajasini hisoblash funksiyasi"""
   print(f'{x**y}.')
 

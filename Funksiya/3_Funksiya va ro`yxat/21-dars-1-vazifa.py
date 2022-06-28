@@ -41,3 +41,6 @@ print(royxat)
 # yangi_ismlar = katta_harf(ismlar[:])
 # print(ismlar)
 # print(yangi_ismlar)
+
+
+print('salom')

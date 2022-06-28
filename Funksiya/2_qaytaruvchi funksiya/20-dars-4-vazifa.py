@@ -12,7 +12,8 @@ def tub_son(min,max):
       else:
         for x in range(2,n):
           if (n%x==0):
-            tub= False
+            tub = False
+
 
       if tub:
         tub_sonlar.append(n)
@@ -28,4 +29,4 @@ def tub_son(min,max):
   return tub_sonlar
 
 
-tub_son(1,33)
+tub_son(5,10)

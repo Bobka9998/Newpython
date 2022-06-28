@@ -29,3 +29,8 @@ while True:
         continue
     elif savol=='no':
         break
+
+print(f'Bizdagi ishchilarning ma`lumotlari.')
+for mijoz in mijozlar:
+    print(f"{mijoz['ism'].title()} {mijoz['familya'].title()} {mijoz['t_yil']}-yilda tug`ulgan. Raqami {mijoz['tel_raqam']}.")
+print(mijozlar)

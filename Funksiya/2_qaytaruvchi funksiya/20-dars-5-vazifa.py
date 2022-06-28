@@ -9,4 +9,15 @@ def fibonacci(n):
             sonlar.append(sonlar[x-1]+sonlar[x-2])
     return sonlar
 
-print(fibonacci(13))
+print(fibonacci(10))
+
+
+def oraliq(min,max,qadam=1):
+    sonlar = []
+    while min<max:
+        sonlar.append(min)
+        min += qadam
+    return sonlar
+
+sonlar = oraliq(4,15,3)
+print(sonlar)

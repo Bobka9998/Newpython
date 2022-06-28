@@ -1,4 +1,4 @@
-### Foydalanuvchidan x va y sonlarini olib, ni konsolga chiqaruvchi funksiya yozing.
+### Foydalanuvchidan x va y sonlarini olib, 'x'ning 'y'chi darajasini konsolga chiqaruvchi funksiya yozing.
 def daraja_count(x,y):
   """ x ning y chi darajasini hisoblash funksiyasi"""
   print(f'{x**y}.')

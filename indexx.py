@@ -50,9 +50,27 @@
 #     baholangan_talabalar[talaba] = baho
 # for c , d in baholangan_talabalar.items():
 #     print( c.title() ,d , 'oldi' )
-from sklearn.utils import shuffle
+# from sklearn.utils import shuffle
 
-d = list(range(11))
-y =  shuffle(d)
-print(d)
-print(y)
+# d = list(range(11))
+# y =  shuffle(d)
+# print(d)
+# print(y)
+
+
+
+# import math
+# y = math.ceil(4.1)
+# print(y)
+
+# from fractions import Fraction
+# a = Fraction(1, 7)
+# b = Fraction(1, 3)
+# print(a + b)
+
+# import random as r
+# ismlar = ['murod', 'otojon', 'bobur', 'husniddin', 'isroil']
+# print(ismlar)
+# print(r.shuffle(['murod', 'otojon', 'bobur', 'husniddin', 'isroil']))
+
+print(5/2,5%2,5//2)
