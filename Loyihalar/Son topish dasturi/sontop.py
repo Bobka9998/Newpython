@@ -13,9 +13,26 @@ def son_top(x):
     elif taxmin_son < taxmin:
       print(f'Siz o`ylagan son katta kichikroq son kiriting.', end = ' ')
     elif taxmin_son == taxmin:
-      print(f'Siz {taxminlar} urunish bilan topdingiz topdingiz. Javob {taxmin}')
+      print(f'Siz {taxminlar} urunish bilan topdingiz . Javob {taxmin}')
       break
   return taxminlar
 
 
-# def son_top_kom(x):
+def son_top_kom(x):
+  past  = 1
+  yuqori = x
+  while True:
+    if past != yuqori:
+      taxmin_son = r.randint(past,yuqori)
+    else:
+      past = yuqori
+    javob = input(f'{taxmin_son} son to`g`rimi. Ha to`g`ri(ok), kattaroq (+), kichikroq (-)'.lower())
+    if javob == '+':
+      past = taxmin_son + 1
+    elif javob == '-':
+      yuqori = taxmin_son - 1
+    elif javob == 'ok':
+      break
+
+
+print(son_top_kom(10))

@@ -73,4 +73,44 @@
 # print(ismlar)
 # print(r.shuffle(['murod', 'otojon', 'bobur', 'husniddin', 'isroil']))
 
-print(5/2,5%2,5//2)
+
+# import random as r
+
+# def sontop_ps(x=10):
+#     input(f'1 dan {x} gacha son o`ylang va istalgan tugmani bosing. Men topaman !')
+#     quyi = 1
+#     yuqori = x
+
+#     while True:
+#       if quyi != yuqori:
+#         taxmin = r.randint(quyi,yuqori)
+#       else:
+#         taxmin = quyi
+#       javob = input(f'Siz {taxmin} sonini o`ylading: to`g`ri(t),'
+#       f'men o`ylagan son bundan kattaroq (+), yoki kichikroq (-)'.lower())
+#       if javob == '-':
+#         yuqori = taxmin -1
+#       elif javob == '+':
+#         quyi = taxmin -1
+#       else:
+#         break
+
+
+
+
+# a = int(input())
+# kichik = 0
+# katta = 0
+# while a >0:
+#     last = a%10
+#     if last == 0:
+#         katta = last
+#     elif last  > 0:
+#         katta = last
+#     if last<9:
+#         kichik = last
+#     a = a//10
+# print(kichik)
+
+
+
